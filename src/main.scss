@@ -1,0 +1,19 @@
+$white:#fff;
+$black:#000;
+body{
+    background-color:#ffffff;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+// 关于header头部的设置
+.header{
+    background: $black;
+    text-align: right;
+    padding: 10px 15px;
+    span{
+        font-size: 16px;
+        color:$white;
+    }
+}
