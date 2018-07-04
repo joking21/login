@@ -11,8 +11,8 @@
             <div class="child2">2</div>
             <div class="child3">3</div>
         </div>
-        <button @click="addFun()">+1</button>
-         <button @click="minusFun()">+1</button>
+        <Button type='info' @click="addFun()">+1</Button>
+         <Button type='info' @click="minusFun()">-1</Button>
     </div> 
 </div>
 
