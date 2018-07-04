@@ -84,13 +84,13 @@ module.exports = {
         hints: false
     },
     devtool: '#eval-source-map',
-    plugins: [
-        // new OpenBrowserPlugin({ url: 'http://localhost:3000' }),
-        new webpack.ProvidePlugin({
-            $: 'jquery',
-            jQuery: 'jquery',
-            'window.jQuery': 'jquery',
-            'window.$': 'jquery'
-        }), //这个可以使jquery变成全局变量，不用在自己文件require('jquery')了
-    ]
+    // plugins: [
+    //     // new OpenBrowserPlugin({ url: 'http://localhost:3000' }),
+    //     new webpack.ProvidePlugin({
+    //         $: 'jquery',
+    //         jQuery: 'jquery',
+    //         'window.jQuery': 'jquery',
+    //         'window.$': 'jquery'
+    //     }), //这个可以使jquery变成全局变量，不用在自己文件require('jquery')了
+    // ]
 }

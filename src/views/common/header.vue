@@ -1,8 +1,11 @@
 <template>
     <div id="header">
-        <div class="header">
+        <div class="header" v-if="token">
             <span>您好：{{token}}</span>
             <Button type="warning" @click="loginOut()">退出</Button>
+        </div>
+        <div class="header" v-else>
+            <Button type="warning">登录</Button>
         </div>
         <toobar-tab></toobar-tab>
     </div> 

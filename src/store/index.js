@@ -11,9 +11,7 @@ export default new Vuex.Store({
     increment:state => state.count ++,
     decrement:state => state.count --,
     changeName(state){
-
       state.token = sessionStorage.getItem('token');
-      console.log(state.token);
     }
   }
 })
