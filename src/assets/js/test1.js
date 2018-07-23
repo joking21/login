@@ -1,4 +1,4 @@
-import TabHeader from '../../views/common/header.vue';
+import Header from '../../views/common/header.vue';
 import {Button} from 'iview';
 export default {
     data(){
@@ -31,7 +31,7 @@ export default {
         // this.getFun();
     },
     components:{
-        TabHeader,
+        Header,
         Button
       },
     computed:{

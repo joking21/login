@@ -23,6 +23,15 @@ router.beforeEach((to, from, next) => {
      }else {
         next();
    }
+  if(to.meta.loginIs){  //判断用户是否是在已登录的情况下，又直接连接到登录页面
+    if(store.state.token){
+      next({
+        path: '/',
+      })
+    }else{
+      next();
+    }
+  }
 })
 new Vue({
   router,

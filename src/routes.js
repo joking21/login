@@ -25,8 +25,11 @@ export default new Router({
             }
         },
         {
-             path:'/login',
+            path:'/login',
             component:login,
+            meta:{
+                loginIs:true
+            }
         }
     ]
 })

@@ -1,7 +1,7 @@
 
 <template>
 <div>
-     <tab-header></tab-header>
+     <Header></Header>
        <div class="parent">
         <h1>以下为弹性盒子的测试</h1>
 
